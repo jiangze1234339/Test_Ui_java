@@ -3,7 +3,7 @@
 <suite name="Default Suite">
   <test name="Selenium_Demo">
     <classes>
-      <class name="com.jiang.day2.TestNGdemo"/>
+      <class name="com.jiang.day3.pratice"/>
     </classes>
   </test> <!-- Selenium_Demo -->
 </suite> <!-- Default Suite -->
