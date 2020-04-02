@@ -51,7 +51,7 @@
                 <version>2.19.1</version>
                 <configuration>
                     <suiteXmlFiles>
-                        <suiteXmlFile>./temp-testng-customsuite.xml</suiteXmlFile>
+                        <suiteXmlFile>./runTestng.xml</suiteXmlFile>
                     </suiteXmlFiles>
                 </configuration>
 
