@@ -1,5 +1,6 @@
 package com.jiang.day3;
 
+import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
@@ -14,6 +15,7 @@ public class pratice {
     @Test
     public void test_01(){
         System.out.println("hello word");
+        Assert.assertEquals(1,2);
     }
     @AfterTest
     public void AterTest(){
