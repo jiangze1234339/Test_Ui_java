@@ -3,7 +3,6 @@ package com.jiang.day3;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -14,10 +13,10 @@ import org.testng.annotations.Test;
 
 import java.awt.*;
 import java.awt.event.KeyEvent;
-import java.rmi.Remote;
 import java.util.concurrent.TimeUnit;
 
-//注册失败
+import page_obj.*;
+import service.*;
 public class mail_163 {
     long time = System.currentTimeMillis();
     String phone_number = ("" + time).substring(0, 11);
@@ -31,52 +30,27 @@ public class mail_163 {
         //打开163邮箱网址
         driver.get("https://mail.163.com/");
         //定位 使用账号密码登录
-        driver.findElement(By.id("switchAccountLogin")).click();
+        driver.findElement(login_page.select_send).click();
     }
 
-        @Test
+    @Test
     //登录成功
-    public void Login_success(){
-        //输入账号  登录框在iframe中，所以先切换到iframe
-        //定位iframe
-        WebElement ele_login = driver.findElement(By.xpath(".//*[@id='loginDiv']/iframe"));
-        driver.switchTo().frame(ele_login);
-        //输入账号
-        driver.findElement(By.xpath(".//*[@id='account-box']/div[2]/input")).sendKeys("jiangzhe5578");
-        //输入密码
-        driver.findElement(By.cssSelector("input.j-inputtext.dlpwd")).sendKeys("woaiwojia1");
-        driver.findElement(By.linkText("登  录")).click();
-        //把driver控制权从iframe转交回去
-        driver.switchTo().defaultContent();
-        WebDriverWait wait = new WebDriverWait(driver, 10);
-        wait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(By.linkText("退出")));
-        //在登录成功的页面中定位 "退出"元素 存在 返回True
-        boolean exit = driver.findElement(By.linkText("退出")).isEnabled();
+    public void Login_success() {
+        //将步骤封装到了service包下的login_service
+        login_service.login(driver, "jiangzhe5578", "woaiwojia1");
+        //定位登录成功页中的文本链接“退出”，判断他是否存在，存在则返回true
+        boolean exit = driver.findElement(first_page.botton_exit).isEnabled();
         Assert.assertTrue(exit);
     }
+
     //发送邮件
     @Test
     public void Send_mail() throws InterruptedException, AWTException {
-        Thread.sleep(2000);
-        driver.findElement(By.cssSelector("li.js-component-component.ra0.mD0")).click();
-        driver.findElement(By.className("nui-editableAddr-ipt")).sendKeys("1045037872@qq.com");
-        Robot robot = new Robot();
-        robot.keyPress(KeyEvent.VK_ENTER);
-        robot.keyRelease(KeyEvent.VK_ENTER);
-//        Thread.sleep(2000);
-        //没定位到
-//        driver.findElement(By.xpath(".//*[@aria-label='邮件主题输入框，请输入邮件主题']/input")).sendKeys("11111111111");
-        driver.findElement(By.xpath(".//*[@class='qa0']/div[2]/div[1]/div[1]/div[1]/input")).sendKeys("1111111111111");
-        driver.findElement(By.xpath(".//*[@class='fv0']/div[2]/input")).sendKeys("C:\\Users\\Actionj\\Desktop\\新建文本文档.txt");
-        Thread.sleep(2000);
-        WebElement ele_frame = driver.findElement(By.className("APP-editor-iframe"));
-        driver.switchTo().frame(ele_frame);
-        driver.findElement(By.xpath("/html/body")).sendKeys("123");
-        driver.switchTo().defaultContent();
-        driver.findElement(By.xpath(".//*[@class='jp0']/div[1]/span[2]")).click();
-        WebDriverWait wait = new WebDriverWait(driver,5);
-        wait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(By.xpath(".//*[text()='发送成功']")));
-        Boolean bool = driver.findElement(By.xpath(".//*[text()='发送成功']")).isDisplayed();
+        //将步骤封装到了service包下的sendmail_service
+        sendmail_service.sssend(driver,"1045037872@qq.com");
+        //查看是否在页面显示
+        Boolean bool = driver.findElement(sendmail_page.send_ok).isDisplayed();
+        //断言
         Assert.assertTrue(bool);
     }
 //    @Test

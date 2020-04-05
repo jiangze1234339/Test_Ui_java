@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0428e06b-bb08-484e-b765-dcfa16ab2925" name="Default Changelist" comment="" />
+    <list default="true" id="0428e06b-bb08-484e-b765-dcfa16ab2925" name="Default Changelist" comment="练习提交github流程">
+      <change afterPath="$PROJECT_DIR$/src/test/java/page_obj/first_page.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/page_obj/login_page.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/page_obj/sendmail_page.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/service/login_service.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/service/sendmail_service.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/jiang/day3/mail_163.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/jiang/day3/mail_163.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/jiang/day1/HomeWork_D2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/jiang/day1/HomeWork_D2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/jiang/day1/TestNGDemo1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/jiang/day1/TestNGDemo1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/jiang/day1/Testdriver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/jiang/day1/Testdriver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/jiang/day2/TestNGdemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/jiang/day2/TestNGdemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/jiang/day2/TestNGdemo2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/jiang/day2/TestNGdemo2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/jiang/day2/Test_grid.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/jiang/day2/Test_grid.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/jiang/day3/mail_163.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/jiang/day3/mail_163.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/jiang/day3/pratice.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/jiang/day3/pratice.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,60 +41,15 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/jiang/day3/mail_163.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+            <state relative-caret-position="280">
+              <caret line="19" column="18" lean-forward="true" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/jiang/day1/HomeWork_D2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="39" column="37" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/jiang/day1/Testdriver.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="966">
-              <caret line="57" column="54" selection-start-line="57" selection-start-column="54" selection-end-line="57" selection-end-column="54" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/jiang/day1/TestNGDemo1.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="27" column="18" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/jiang/day3/pratice.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="5" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -105,7 +76,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/jiang/day1/Testdriver.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/jiang/day1/TestNGDemo1.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/jiang/day1/HomeWork_D2.java" />
@@ -114,8 +84,16 @@
         <option value="$PROJECT_DIR$/src/test/java/com/jiang/day2/Test_grid.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/jiang/day2/TestNGdemo2.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/jiang/day2/TestNGdemo.java" />
+        <option value="$PROJECT_DIR$/File/filename.txt" />
         <option value="$PROJECT_DIR$/temp-testng-customsuite.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/jiang/day3/pratice.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/jiang/day3/pop_sort.java" />
+        <option value="$PROJECT_DIR$/src/test/java/page_obj/login_page.java" />
+        <option value="$PROJECT_DIR$/src/test/java/page_obj/first_page.java" />
+        <option value="$PROJECT_DIR$/src/test/java/service/login_service.java" />
+        <option value="$PROJECT_DIR$/src/test/java/page_obj/sendmail_page.java" />
+        <option value="$PROJECT_DIR$/src/test/java/service/sendmail_service.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/jiang/day3/mail_163.java" />
       </list>
     </option>
@@ -143,15 +121,15 @@
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="Selenium" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
         </path>
       </expand>
       <select />
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="x" value="221" />
+    <option name="y" value="39" />
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
@@ -161,7 +139,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -172,7 +149,7 @@
             <path>
               <item name="Selenium_Demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="IdeaProjects" type="462c0819:PsiDirectoryNode" />
-              <item name="picture" type="462c0819:PsiDirectoryNode" />
+              <item name="File" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Selenium_Demo" type="b2602c69:ProjectViewProjectNode" />
@@ -199,24 +176,6 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="jiang" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Selenium_Demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IdeaProjects" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="jiang" type="462c0819:PsiDirectoryNode" />
-              <item name="day1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Selenium_Demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IdeaProjects" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="jiang" type="462c0819:PsiDirectoryNode" />
-              <item name="day2" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Selenium_Demo" type="b2602c69:ProjectViewProjectNode" />
@@ -233,12 +192,15 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="driver" type="462c0819:PsiDirectoryNode" />
+              <item name="page_obj" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Selenium_Demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="IdeaProjects" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Selenium_Demo" type="b2602c69:ProjectViewProjectNode" />
@@ -248,15 +210,16 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1585450627322" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1586056670120" />
     <property name="last_opened_file_path" value="F:/Git/bin/git.exe" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -276,42 +239,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.mail_163.regist_failed">
+  <component name="RunManager" selected="TestNG.mail_163">
+    <configuration name="pop_sort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jiang.day3.pop_sort" />
+      <module name="IdeaProjects" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="page_obj.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="pratice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.jiang.day3.pratice" />
       <module name="IdeaProjects" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.jiang.day3.*" />
+          <option name="PATTERN" value="page_obj.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="F:/IdeaProjects/temp-testng-customsuite.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="IdeaProjects" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/temp-testng-customsuite.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestNGdemo2" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="IdeaProjects" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.jiang.day2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.jiang.day2" />
-      <option name="MAIN_CLASS_NAME" value="com.jiang.day2.TestNGdemo2" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -320,7 +270,7 @@
       <module name="IdeaProjects" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.jiang.day3.*" />
+          <option name="PATTERN" value="page_obj.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -332,11 +282,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="mail_163.Login_success" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="IdeaProjects" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="page_obj.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.jiang.day3" />
+      <option name="MAIN_CLASS_NAME" value="com.jiang.day3.mail_163" />
+      <option name="METHOD_NAME" value="Login_success" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="mail_163.regist_failed" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="IdeaProjects" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.jiang.day3.*" />
+          <option name="PATTERN" value="page_obj.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -351,19 +319,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.TestNGdemo2" />
-      <item itemvalue="TestNG.F:/IdeaProjects/temp-testng-customsuite.xml" />
       <item itemvalue="TestNG.mail_163" />
       <item itemvalue="Application.pratice" />
       <item itemvalue="TestNG.mail_163.regist_failed" />
+      <item itemvalue="Application.pop_sort" />
+      <item itemvalue="TestNG.mail_163.Login_success" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.mail_163.regist_failed" />
-        <item itemvalue="Application.pratice" />
         <item itemvalue="TestNG.mail_163" />
-        <item itemvalue="TestNG.F:/IdeaProjects/temp-testng-customsuite.xml" />
-        <item itemvalue="TestNG.TestNGdemo2" />
+        <item itemvalue="TestNG.mail_163.Login_success" />
+        <item itemvalue="Application.pop_sort" />
+        <item itemvalue="Application.pratice" />
+        <item itemvalue="TestNG.mail_163.regist_failed" />
       </list>
     </recent_temporary>
   </component>
@@ -389,32 +357,117 @@
       <workItem from="1585265115102" duration="24738000" />
       <workItem from="1585357576688" duration="7903000" />
       <workItem from="1585443564322" duration="5895000" />
-      <workItem from="1585554255104" duration="1711000" />
+      <workItem from="1585554255104" duration="7424000" />
+      <workItem from="1585614604778" duration="2824000" />
+      <workItem from="1585702587470" duration="8159000" />
+      <workItem from="1585786686181" duration="9000" />
+      <workItem from="1585788230823" duration="7072000" />
+      <workItem from="1585877381788" duration="3402000" />
+      <workItem from="1585960473315" duration="2569000" />
+      <workItem from="1586048715277" duration="7279000" />
     </task>
+    <task id="LOCAL-00001" summary="练习提交github流程">
+      <created>1585560579000</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1585560579000</updated>
+    </task>
+    <task id="LOCAL-00002" summary="练习提交github流程">
+      <created>1585616217294</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1585616217294</updated>
+    </task>
+    <task id="LOCAL-00003" summary="练习提交github流程">
+      <created>1585616401318</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1585616401318</updated>
+    </task>
+    <task id="LOCAL-00004" summary="修改xml，配置jenkins插件">
+      <created>1585706601645</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1585706601646</updated>
+    </task>
+    <task id="LOCAL-00005" summary="练习提交github流程">
+      <created>1585706619517</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1585706619517</updated>
+    </task>
+    <task id="LOCAL-00006" summary="测试jenkins调用本地代码">
+      <created>1585739402511</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1585739402511</updated>
+    </task>
+    <task id="LOCAL-00007" summary="为maven增加jenkins插件">
+      <created>1585739431151</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1585739431151</updated>
+    </task>
+    <task id="LOCAL-00008" summary="练习提交github流程">
+      <created>1585739440111</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1585739440111</updated>
+    </task>
+    <task id="LOCAL-00009" summary="修改xml文件，之前写错了">
+      <created>1585788807466</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1585788807466</updated>
+    </task>
+    <task id="LOCAL-00010" summary="练习提交github流程">
+      <created>1585789739978</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1585789739978</updated>
+    </task>
+    <task id="LOCAL-00011" summary="练习提交github流程">
+      <created>1585789751745</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1585789751745</updated>
+    </task>
+    <task id="LOCAL-00012" summary="修改pom中的maven插件版本">
+      <created>1585817626159</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1585817626159</updated>
+    </task>
+    <task id="LOCAL-00013" summary="练习提交github流程">
+      <created>1585818684682</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1585818684682</updated>
+    </task>
+    <task id="LOCAL-00014" summary="change">
+      <created>1586049474431</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1586049474431</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="mail_163_regist_failed - 2020.03.29 at 09h 55m 30s.xml">
-      <configuration name="mail_163.regist_failed" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="mail_163_regist_failed - 2020.03.29 at 09h 58m 39s.xml">
-      <configuration name="mail_163.regist_failed" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="mail_163_regist_failed - 2020.03.29 at 10h 02m 53s.xml">
-      <configuration name="mail_163.regist_failed" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="mail_163_regist_failed - 2020.03.29 at 10h 04m 35s.xml">
-      <configuration name="mail_163.regist_failed" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="mail_163_regist_failed - 2020.03.29 at 10h 10m 31s.xml">
-      <configuration name="mail_163.regist_failed" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="mail_163_regist_failed - 2020.03.29 at 10h 11m 43s.xml">
-      <configuration name="mail_163.regist_failed" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="mail_163_regist_failed - 2020.03.29 at 10h 12m 34s.xml">
-      <configuration name="mail_163.regist_failed" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="mail_163_regist_failed - 2020.03.29 at 10h 30m 15s.xml">
       <configuration name="mail_163.regist_failed" configurationId="TestNG" />
     </history-entry>
@@ -424,9 +477,30 @@
     <history-entry file="mail_163_regist_failed - 2020.03.29 at 10h 37m 17s.xml">
       <configuration name="mail_163.regist_failed" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="mail_163_regist_failed - 2020.03.30 at 17h 24m 05s.xml">
+      <configuration name="mail_163.regist_failed" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="mail_163_Login_success - 2020.04.05 at 09h 21m 04s.xml">
+      <configuration name="mail_163.Login_success" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="mail_163 - 2020.04.05 at 09h 22m 30s.xml">
+      <configuration name="mail_163" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="mail_163_Login_success - 2020.04.05 at 09h 49m 11s.xml">
+      <configuration name="mail_163.Login_success" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="mail_163_Login_success - 2020.04.05 at 09h 52m 06s.xml">
+      <configuration name="mail_163.Login_success" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="mail_163_Login_success - 2020.04.05 at 10h 18m 45s.xml">
+      <configuration name="mail_163.Login_success" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="mail_163_Login_success - 2020.04.05 at 10h 19m 25s.xml">
+      <configuration name="mail_163.Login_success" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="108383000" />
+    <option name="totallyTimeSpent" value="145410000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -439,8 +513,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16471216" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14925373" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -449,16 +524,16 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.32936078" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.3286334" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4989339" weight="0.30802602" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.329718" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.329718" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50053304" side_tool="true" weight="0.32936078" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32936078" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.30911064" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5010661" side_tool="true" weight="0.3286334" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3286334" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -467,44 +542,34 @@
       <window_info anchor="right" id="Database" order="5" weight="0.32995737" />
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Maven Projects" order="8" weight="0.23560767" />
+      <window_info anchor="right" id="Maven Projects" order="8" weight="0.11940298" />
     </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13486141" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32936078" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32936078" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32936078" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Database" order="5" weight="0.32995737" />
-      <window_info anchor="right" id="Theme Preview" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Maven Projects" order="8" visible="true" weight="0.23560767" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="修改xml，配置jenkins插件" />
+    <MESSAGE value="测试jenkins调用本地代码" />
+    <MESSAGE value="为maven增加jenkins插件" />
+    <MESSAGE value="修改xml文件，之前写错了" />
+    <MESSAGE value="修改pom中的maven插件版本" />
+    <MESSAGE value="练习提交github流程" />
+    <MESSAGE value="change" />
+    <option name="LAST_COMMIT_MESSAGE" value="change" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -543,13 +608,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
           <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -618,41 +676,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/temp-testng-customsuite.xml">
+    <entry file="file://$PROJECT_DIR$/File/filename.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="30" lean-forward="true" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+        <state>
+          <caret column="5" selection-start-column="5" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/jiang/day2/Test_grid.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
+        <state relative-caret-position="207">
           <caret line="15" column="44" lean-forward="true" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/jiang/day2/TestNGdemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="750">
-          <caret line="44" column="26" lean-forward="true" selection-start-line="44" selection-start-column="26" selection-end-line="44" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/jiang/day2/TestNGdemo2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1104">
-          <caret line="48" column="27" selection-start-line="48" selection-start-column="27" selection-end-line="48" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/jiang/day3/mail_163.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="406">
+          <caret line="39" column="19" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -660,36 +701,111 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="460">
           <caret line="39" column="37" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/jiang/day1/Testdriver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="966">
+        <state relative-caret-position="-77">
           <caret line="57" column="54" selection-start-line="57" selection-start-column="54" selection-end-line="57" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/jiang/day1/TestNGDemo1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
+        <state relative-caret-position="391">
           <caret line="27" column="18" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/runTestng.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1380">
+          <caret line="60" selection-start-line="60" selection-end-line="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/jiang/day3/pop_sort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="54" lean-forward="true" selection-start-line="7" selection-start-column="54" selection-end-line="7" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/jiang/day2/TestNGdemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="50" column="40" lean-forward="true" selection-start-line="50" selection-start-column="40" selection-end-line="50" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/jiang/day3/pratice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#356#357#0" expanded="true" />
+            <element signature="e#404#405#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/page_obj/first_page.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="32" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/page_obj/login_page.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="63" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/service/login_service.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/jiang/day3/pratice.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/page_obj/sendmail_page.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="5" selection-end-column="45" />
+        <state relative-caret-position="184">
+          <caret line="8" column="74" selection-start-line="8" selection-start-column="74" selection-end-line="8" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/service/sendmail_service.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-19">
+          <caret line="12" column="59" selection-start-line="12" selection-start-column="59" selection-end-line="12" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/jiang/day3/mail_163.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="19" column="18" lean-forward="true" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
