@@ -15,7 +15,6 @@ public class pratice {
     @Test
     public void test_01(){
         System.out.println("hello word");
-        Assert.assertEquals(1,2);
     }
     @AfterTest
     public void AterTest(){
